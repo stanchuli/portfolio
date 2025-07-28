@@ -182,7 +182,7 @@ main {
 }
 
 .box2::after {
-  background-image: url('images/slika2.jpg');
+  background-image: url('images/slika2.JPG');
 }
 
 .box3::after {
@@ -210,7 +210,7 @@ main {
 }
 
 .box9::after {
-  background-image: url('images/slika9.jpg');
+  background-image: url('images/slika9.JPG');
 }
 
 .box10::after {
