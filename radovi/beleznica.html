@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="../style.css" />
+  <title>beležnica</title>
+  <style>
+
+    main {
+      display: flex;
+      margin: 0;
+      padding: 80px 100px 170px 100px;
+      overflow: hidden;
+      box-sizing: border-box;
+      font-family: Space Grotesk, sans-serif;
+      color: black;
+      min-height: 1400px;      
+      cursor: url('images/kursor.svg') 16 16, auto;
+
+    }
+
+    header {
+      background-color: limegreen;
+      overflow: hidden;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      width: 100vw;
+    }
+
+    .marquee {
+      display: flex;
+      width: max-content;
+      animation: marqueeAnim 30s linear infinite;
+      white-space: nowrap;
+    }
+
+    .marquee span {
+      color: white;
+      font-family: 'Neureal', sans-serif;
+      font-size: 14px;
+      padding-right: 2rem;
+    }
+
+    @keyframes marqueeAnim {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+
+.intro {
+  width: 100%;
+  padding: 50px 0px 0px 80px;
+  box-sizing: border-box;
+  font-size: 45pt;
+  line-height: 1.2;
+  text-align: left;
+  font-family: Space Grotesk, sans-serif;
+  background: white;
+  color: black;
+}
+
+.intro p {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+    .notebook-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 30px;
+      max-width: 1400px; 
+    }
+
+.blur-box {
+  background: rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  text-align: justify;
+  font-size: 9pt;
+  color: transparent;
+  filter: blur(5px);
+  transition: filter 0.4s ease, color 0.4s ease;
+  cursor: pointer;
+  min-height: 180px;
+}
+
+.blur-box:hover {
+  filter: blur(0px);
+  color: black;
+}
+
+  footer {
+      position: relative;
+      bottom: 0;
+      width: 100%;
+      padding: 10px 30px;
+      background: white;
+      font-size: 10pt;
+      font-family: Neureal, sans-serif;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-sizing: border-box;
+    }
+.nazad-button {
+  position: absolute;
+  top: 1590px;  
+  left: 1020px; 
+  text-decoration: underline;
+  color: black;
+  font-family: Space Grotesk, sans-serif;
+  font-size: 12pt;
+  line-height: 1.5;
+  mix-blend-mode: multiply;
+  transition: color 0.3s ease;
+  text-transform: lowercase;
+  cursor: pointer;
+}
+
+.nazad-button:hover {
+  color: limegreen;
+}
+
+  </style>
+</head>
+<body>
+
+  <header>
+  <div class="marquee">
+    <span>beležnica &nbsp; beležnica &nbsp; beležnica &nbsp; beležnica &nbsp; beležnica &nbsp; beležnica &nbsp; beležnica &nbsp; beležnica &nbsp; beležnica &nbsp; beležnica &nbsp; beležnica &nbsp; beležnica &nbsp; beležnica &nbsp; beležnica &nbsp; beležnica &nbsp; beležnica &nbsp; beležnica &nbsp; beležnica &nbsp; beležnica &nbsp; beležnica &nbsp; beležnica &nbsp; beležnica &nbsp; beležnica &nbsp;beležnica &nbsp; beležnica &nbsp; beležnica &nbsp; beležnica &nbsp;beležnica &nbsp; beležnica &nbsp; beležnica &nbsp; beležnica &nbsp; beležnica &nbsp; beležnica &nbsp; beležnica &nbsp; beležnica &nbsp; beležnica &nbsp; beležnica &nbsp; beležnica &nbsp; beležnica &nbsp; beležnica &nbsp; beležnica &nbsp; beležnica &nbsp;</span>
+  </div>
+  </header>
+
+  <section class="intro">
+    <p>
+      beležnica je uvek-rastuća zbirka sirovo zabeleženih misli, susret kasnih plavih sati i potrebe bežanja od izgovorenog
+    </p>
+  </section>
+
+  <main>
+    <div class="notebook-grid">
+      <div class="blur-box">
+<p>i ljubomora, sto pothranjuje tugu</p>
+<p>na kašiku</p>
+<p>tek toliko da oseti slatki ukus</p>
+<p>lažna sreća kao pucketavi prah u kesici</p>
+<p>naprasno otera gorčinu</p>
+<p>ali u grlu je istina i neizbežnost</p>
+<p>na kraju, ispod ravnodušnog</p>
+<p>odaju nas plavi jezici</p>
+      </div>
+      <div class="blur-box">
+<p>naleti uma u teget satu</p>
+<p>kao klatno vagaju po stranama sanovnika</p>
+<p>odjednom smo krivi i ja</p>
+<p>i tvoj neumesni zahtev da poletim</p>
+      </div>
+      <div>
+      </div>
+      <div class="blur-box">
+<p>vraćanje unazad je periodično
+ima veze sa porodičnim kućama
+sobama za devojčurke i terasom na tavanu
+pogledom u susedna dvorišta, oblake i neizgovoreno
+bežanje se zapravo odvija unazad
+nazad u stare ulice i navike
+u toplinu nepomičnosti
+bežanje u nepomičnosti</p>
+
+<p>i sećanje je periodično
+bljesak kao kap gorčine u sezonskom voću
+većinski slatkom, nagnječenom od zrelosti
+zrelost je zapravo meka i lepljiva
+meka od saznanja da gard ne vredi
+strpljiva u snovima o promeni
+koža koja stari i rasteže se posuta flekama
+zrelost posuta flekama</p>
+
+
+<p>i seta je periodična
+našao bi je u toplom julskom popodnevu
+povetarcu koji je donosi i ne vodi dalje
+ostaje u oku sa naočarima obojenih stakala
+ostati je zapravo novi polazak na put
+poznati put u novo vreme
+a vreme je uvek novo
+novo i periodično</p>
+      </div>
+      <div class="blur-box">
+<p>ponekad nije dovoljno
+uraditi nešto za sebe
+jer je to za sebe
+ipak za druge</p>
+<p>onda i jeste utešno saznanje
+da je pokušaj neuspeo
+<p>potrebni su naleti samoće,
+ne treba se nadati
+namešteno slučajnim susretima</p>
+<p>objektivno otvoreni za novitet
+iz senke iza mokrih stranica
+život je ponekad filmski
+kao sto su i filmovi životni.
+a možda i ne postoje odvojeno</p>
+<p>sasvim lepo funkcionišem
+u tuđoj gužvi
+iz prikrajka svog praznog ćoška
+zaista sasvim lepo
+gužva u očima je mir u glavi</p>
+      </div>
+      <div>
+      </div>
+      <div class="blur-box">
+<p>sećam se onoga što se nije dogodilo
+jer nije postojalo, trudila sam se da ne zaboravim
+osećam posledice svojih ne-dela
+ne kao negacija što oslobađa krivice
+časni sudija, nevina je
+i nije ništa po tom pitanju preduzela</p>
+<p>nevidljive posledice bole
+i bol se ne vidi
+ružna osećanja su topla 
+još su u blizini, dišu i magle pogled
+a ja više ne pišem poeziju
+valjda nemam kome da se obratim</p>
+<p>poezija traži lepo
+manire i sladunjavi bonton
+ju naopako bi bilo pokleknuti
+pisati pisma puna mržnje
+emotivna pražnjenja papir ne trpi
+to su specijalnosti drugih
+porcelan recimo predvodi</p>
+<p>on koji se ne razbija
+a to tako lako zna i želi
+pod malo nespretnijom rukom
+duri se, skače u ambis
+vuče za sobom dok se useca
+bele ivice prigrle crvene prste
+sebično ali efektno</p>
+<p>porcelan više nije ljut
+i više ne postoji, ali to se zaboravlja
+a izrečeno se ne useca i ne boli
+lepi se i uvlači pod kožu
+pamti se kao prva nepravda
+i nepovratne zanoktice</p>
+      </div>
+      <div class="blur-box">
+<p>bila sam dobar drug za igru</p>
+<p>ko plastična lutka sa kolutavim očima</p>
+<p>što zažmiri na svoju nepravedno išaranu haljinicu</p>
+<p>po potrebi i dečački savezni vojnik</p>
+<p>srca u olovnim ljušturama</p>
+<p>otporna su na požare toplih suza</p>
+<p>što grcaju iz grla i nasrću na zaključana pluća</p>
+
+<p>bila sam odgovor mnogo puta</p>
+<p>a pitanja nisam volela da postavljam</p>
+      </div>
+    </div>
+  </main>
+
+<a href="../html.html" class="cta-buttons nazad-button">nazad</a>
+
+  <footer>
+    <div class="footer-left">andjelija.stanculovic@gmail.com</div>
+    <div class="footer-center">2025</div>
+    <div class="footer-right">@stanchuli</div>
+  </footer>
+
+</body>
+</html>

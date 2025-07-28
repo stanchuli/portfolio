@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <title>četiri zida</title>
+  <link rel="stylesheet" href="../style.css" />
+  <style>
+
+    main {
+      display: flex;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      font-family: Space Grotesk, sans-serif;
+      color: black;
+       min-height: 800px;
+    }
+
+.left-col, .right-col {
+  flex: 1 1 50%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-col {
+  border-right: 2px solid black;
+  padding: 0;
+}
+
+.left-col img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  display: block;
+}
+
+.right-col {
+  font-size: 10pt;
+  line-height: 1.5;
+  font-weight: 400;
+  mix-blend-mode: multiply;
+  padding: 100px 200px;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.text-wrap {
+  max-width: 400px;
+  width: 100%;
+}
+
+.nazad-button {
+  position: absolute;
+  top: 560px;  
+  left: 955px; 
+  text-decoration: underline;
+  color: black;
+  font-family: Space Grotesk, sans-serif;
+  font-size: 12pt;
+  line-height: 1.5;
+  mix-blend-mode: multiply;
+  transition: color 0.3s ease;
+  text-transform: lowercase;
+  cursor: pointer;
+}
+
+.nazad-button:hover {
+  color: limegreen;
+}
+
+
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="marquee">
+    <span>stanchuli &nbsp; stanchuli &nbsp; stanchuli &nbsp; stanchuli &nbsp; stanchuli &nbsp; stanchuli &nbsp; stanchuli &nbsp; stanchuli &nbsp; stanchuli &nbsp; stanchuli &nbsp; stanchuli &nbsp; stanchuli &nbsp; stanchuli &nbsp; stanchuli &nbsp; stanchuli &nbsp; stanchuli &nbsp; stanchuli &nbsp; stanchuli &nbsp; stanchuli &nbsp; stanchuli &nbsp; stanchuli &nbsp; stanchuli &nbsp; stanchuli &nbsp;stanchuli &nbsp; stanchuli &nbsp; stanchuli &nbsp; stanchuli &nbsp;stanchuli &nbsp; stanchuli &nbsp; stanchuli &nbsp; stanchuli &nbsp; stanchuli &nbsp; stanchuli &nbsp; stanchuli &nbsp; stanchuli &nbsp; stanchuli &nbsp; stanchuli &nbsp; stanchuli &nbsp; stanchuli &nbsp; stanchuli &nbsp; stanchuli &nbsp; stanchuli &nbsp;</span>
+  </div>
+</header>
+
+<main>
+<div class="left-col">
+  <video controls width="100%" height="100%" style="object-fit: cover;">
+    <source src="../images/4zida.mp4" type="video/mp4">
+    Vaš pregledač ne podržava video tag.
+  </video>
+</div>
+  <div class="right-col">
+  <div class="text-wrap">   
+
+    <p>
+       četiri zida
+   </p>
+       
+    <p>
+       četiri zida je publikacija rađena na predmetu Grafički dizajn , kao odgovor na temu “telo”. 
+
+Pojam tela sam izrazila kroz jednu od najsnažnijih emocija koje me obuzimaju, toliko da nekad  ne znam za život bez nje- odnosno kroz stid, razlažući ga u sopstveno telo/sistem. 
+
+Stid sam zamislila kao stambenu jedinicu, nastalu od 4 podemocija, tj. zida, koji ga sačinjavaju. To su poniženje, izdaja, odbačenost i mazohizam.
+   </p>
+       
+    <p>Početak publikacije čini oglas koji najavljuje sadržaj izdavanog prostora.
+
+Svaka od emocija predstavljena je teksturom i svojstvima različitih papira, nakon koje slede stranice sa propratnim tekstom i fotografijom koja nastoji da prenese isti doživljaj. 
+
+Koristim paus papir sa crnim elementima da zamaglim svoje ime na samom kraju, za dodatni opipljiv prikaz srama.
+   </p>
+  </div>
+</main>
+
+<a href="../html.html" class="cta-buttons nazad-button">nazad</a>
+
+<footer>
+  <div>andjelija.stanculovic@gmail.com</div>
+  <div>2025</div>
+  <div>@stanchuli</div>
+</footer>
+
+</body>
+</html>
